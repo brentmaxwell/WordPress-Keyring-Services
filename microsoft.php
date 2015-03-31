@@ -126,9 +126,6 @@ class Keyring_Service_OneDrive extends Keyring_Service_OAuth2 {
 				// And switch to using it
 				$this->set_token( $access_token );
 			}
-			else{
-				print_r($refresh);
-			}
 		}
 	}
 }
